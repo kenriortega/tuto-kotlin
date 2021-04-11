@@ -1,4 +1,5 @@
 fun main() {
+    // day 52
     val listOfString = listOf("kotlin", "c#", "erlang", "javascript")
     val listOfInt = listOf(1, 2, 3, 4, 5)
 
