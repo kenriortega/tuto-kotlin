@@ -10,13 +10,15 @@ import java.util.List;
 public class CustomerService {
 
     @NotNull
-    public Customer customerFromSocial(String handle){
+    public Customer customerFromSocial(String handle) {
         Customer c = new Customer("Bob");
         String initials = StringExtensions.initials(c.getName());
         return c;
     }
+
     @NotNull
-    public List<Customer> processCustomers(){
+    public List<Customer> processCustomers() {
         return new ArrayList<Customer>();
     }
 }
+
